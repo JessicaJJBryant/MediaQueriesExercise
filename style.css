@@ -9,3 +9,17 @@ h1 {
   }
   
   /* START BELOW THIS LINE */
+  
+    /* 1 */
+    @media (max-width: 800px) {
+      body {
+          background-color: navy;
+      }
+    }
+    /* 2 */
+    @media (max-width: 600px) {
+        body {
+            background-color: orange;
+        }
+    }
+    
