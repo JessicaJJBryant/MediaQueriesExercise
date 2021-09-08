@@ -37,3 +37,18 @@ h1 {
             border-top: 10px solid gray;
         }
     }
+    /* 5 */
+    @media (orientation: landscape) {
+        body {
+            display: flex;
+        }
+    }
+    /* 6 */
+    @media (orientation: portrait) {
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    }
