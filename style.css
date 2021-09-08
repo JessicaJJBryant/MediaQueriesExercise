@@ -52,3 +52,12 @@ h1 {
             align-items: center;
         }
     }
+
+    /* Bonus 1 */
+    @media print {
+        h1 {
+            text-transform: uppercase;
+            color: green;
+        }
+    }
+    
